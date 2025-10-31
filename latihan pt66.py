@@ -1,0 +1,15 @@
+data = int(input("Berapa Data : "))
+
+for i in range(data):
+    print("Data ke - " +str(i+1))
+    nama = input("MAsukan Nama Anda : ")
+    nim = input("Masukan NIM Anda : ")
+    uts = input("Masukan Nilai UTS : ")
+    uas = input("Masukan Nilai UAS : ")
+    print("========================================================")
+    print(f"Nama Anda : {nama}")
+    print(f"NIM anda : {nim}")
+    print(f"Nilai UTS anda : {uts}")
+    print(f"Nilai UAS anda : {uas}")
+    print(f"NIM anda {nim} nilai uts : {uts} nilai uas : {uas}")
+    print("========================================================")
